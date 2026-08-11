@@ -1,0 +1,253 @@
+# Schoenstatt terms and their agreed German rendering.
+#
+# `de` is what to write; `why` is the evidence. `de: ~` is an open question — ask.
+# Verified against production and the sources below on 2026-08-10.
+# See ../style/de.md for orthography and register.
+#
+# ## German is the charism's own language, and that changes the job
+#
+# For Italian and Portuguese the task was to find what the movement calls things. For
+# German it is the reverse: these terms were *coined* in German, and the German rows on the
+# site are mostly the originals rather than translations. So this glossary is less about
+# choosing and more about **recording which of two attested German forms the site should
+# standardise on** — and about not "correcting" a term that is already right.
+#
+# Counts are occurrences across 13.4 million characters, dominated by the
+# **Schönstatt Lexikon** (834 pages) — a dictionary of the charism, which both uses and
+# defines its vocabulary. That makes German the best-evidenced language in this project.
+#
+# **The books are copyrighted.** Extract to scratch; commit only term, count and a clause.
+
+sources:
+  - id: lexikon
+    what: >
+      *Schönstatt Lexikon*, 834 pages — the reference work for the charism's vocabulary,
+      successor to *Zentrale Begriffe Schönstatts* (Herta Schlosser, 1977). **The single
+      most authoritative source in this repository for any language**, because its
+      headwords *are* the terms.
+  - id: kentenich-reader-de
+    what: >
+      *Kentenich Reader* volumes II and III (2011), the German originals of the Spanish
+      tomos. ~1.75 million characters.
+  - id: milwaukee-de
+    what: >
+      The Milwaukee tertianship conferences in German (`DD.pdf`), ~5 million characters.
+      Kentenich's own voice at length; good for register, less for headwords.
+  - id: site-de
+    what: >
+      The 720 German translations already on schoenstatt.link. Mostly originals rather
+      than translations, and mostly right — but see `../../docs/de-audit.md`.
+
+terms:
+
+  # ---- the core, all of it German-coined ----
+
+  - en: Covenant of Love
+    de: Liebesbündnis
+    why: >
+      **807 occurrences against 11 for `Liebesbund`.** Both are real German and both appear
+      on the site; `Liebesbündnis` is overwhelmingly the Lexikon's form and should be the
+      standard. Note the site has two shrine names that differ only in this
+      (`Heiligtum des Liebesbundes für Europa` and `Heiligtum Liebesbündnis für Europa`) —
+      those are two rows for one shrine, not two shrines.
+    source: [lexikon, kentenich-reader-de]
+    count: 807
+
+  - en: Capital of Grace
+    de: Gnadenkapital
+    why: "47 occurrences. Settled; no competing form."
+    source: lexikon
+    count: 47
+
+  - en: Original Shrine
+    de: Urheiligtum
+    why: >
+      24 occurrences, and what the site already uses. `Ur-` is the prefix the movement uses
+      for the shrine at Vallendar; do not expand it to `Ursprüngliches Heiligtum`.
+    source: lexikon
+    count: 24
+
+  - en: Shrine
+    de: Heiligtum
+    why: "288 occurrences. The site's existing `Schönstatt-Heiligtum` compound is right."
+    source: lexikon
+    count: 288
+
+  - en: home shrine
+    de: Hausheiligtum
+    why: "24 occurrences. One word, as German compounds it."
+    source: lexikon
+    count: 24
+
+  - en: Mother Thrice Admirable
+    de: Dreimal Wunderbare Mutter
+    why: >
+      29 occurrences of the full form; **`MTA` (140) is used freely** in German Schoenstatt
+      prose and needs no expansion for this audience. `Mater Ter Admirabilis` (3) is kept in
+      Latin where the Latin is meant.
+    source: lexikon
+    count: 29
+
+  - en: everyday sanctity
+    de: Werktagsheiligkeit
+    why: >
+      **166 occurrences — a settled term of art, not a description.** Worth noting across
+      languages: this is the word the Romance languages had to paraphrase
+      (es `santidad de la vida diaria`, 70; pt `Santidade da vida diária`), and the reason
+      the Italian rendering of the shrine named after it sits on the Italian review queue.
+    source: lexikon
+    count: 166
+
+  - en: practical faith in Divine Providence
+    de: Vorsehungsglaube
+    why: >
+      **695 occurrences — the most frequent single term in the German corpus.** One word
+      where every other language needs a phrase.
+    source: [lexikon, milwaukee-de]
+    count: 695
+
+  - en: blank cheque
+    de: Blankovollmacht
+    why: >
+      154 occurrences. Note this is *not* a banking metaphor in German — `Vollmacht` is a
+      power of attorney, so the German is closer to "unconditional authorisation" than to
+      the English and Romance "blank cheque".
+    source: lexikon
+    count: 154
+
+  - en: instrument piety
+    de: Werkzeugsfrömmigkeit
+    why: "70 occurrences, with the linking `-s-`. Not `Werkzeugfrömmigkeit`."
+    source: lexikon
+    count: 70
+
+  - en: attachment / bond
+    de: Bindung
+    why: >
+      **304 occurrences**, with `Bindungsorganismus` (90) for the *organism of attachments*.
+      `Verbundenheit` (46) is the related but distinct noun the site uses in one shrine name
+      (`Heiligtum der Verbundenheit`) — do not merge them: `Bindung` is the pedagogical
+      term, `Verbundenheit` the state of being bound.
+    source: lexikon
+    count: 304
+
+  - en: Founding Document
+    de: Gründungsurkunde
+    why: "199 occurrences."
+    source: lexikon
+    count: 199
+
+  # ---- the three tiers ----
+
+  - en: Apostolic Federation
+    de: Bund
+    context: "compounds: Familienbund, Mütterbund, Frauenbund, Priesterbund"
+    why: >
+      **`Bund` (133) / `Bünde` (24), not `Föderation`.** The site's existing German already
+      compounds correctly — `Familienbund`, `Mütterbund`, `Frauenbund`, `Priesterbund` — and
+      those are right. Worth setting beside the other languages, which split three ways:
+      es `Federación`, pt `União`, de `Bund`. **No two of them agree**, which is exactly why
+      a sibling language is never evidence for a term.
+    source: [lexikon, site-de]
+    count: 157
+
+  - en: Apostolic League
+    de: Liga
+    why: "82 occurrences, with `Familienliga` (9) compounding as expected."
+    source: lexikon
+    count: 82
+
+  - en: Secular Institute
+    de: Säkularinstitut
+    why: "**164 occurrences**, against 121 for bare `Institut`. The site uses both correctly."
+    source: lexikon
+    count: 164
+
+  # ---- the communities ----
+
+  - en: Sisters of Mary
+    de: Marienschwestern
+    why: "88 occurrences. Matches the site."
+    source: lexikon
+    count: 88
+
+  - en: Brothers of Mary
+    de: Marienbrüder
+    why: "43 occurrences. Matches the site."
+    source: lexikon
+    count: 43
+
+  - en: Schoenstatt Fathers
+    de: Schönstatt-Patres
+    why: >
+      `Schönstattpatres` (24) and `Schönstatt-Patres` (23) are both current in the corpus —
+      a genuine coin-flip. The site already uses the hyphenated form, so keep it for
+      consistency rather than for correctness.
+    source: [lexikon, site-de]
+    review: true
+
+  - en: Ladies of Schoenstatt
+    de: Frauen von Schönstatt
+    context: >
+      the site abbreviates the institute as `Inst. U.L.Frau von Schönstatt`
+    why: >
+      **43 occurrences of `Frauen von Schönstatt`.** So German, like Italian, has both a
+      colloquial plural name (*the women/ladies of Schoenstatt*) and the institute's formal
+      name (`Institut Unserer Lieben Frau von Schönstatt` — *Our Lady*). The site's two
+      English keys map onto exactly that pair, and its existing German handles it correctly.
+      This corroborates the correction made to the Italian glossary.
+    source: [lexikon, site-de]
+
+  # ---- open ----
+
+  - en: Schoenstatt wayside shrine
+    de: Schönstatt-Bildstock
+    context: the `sch-wayside-shrine` association kind
+    why: >
+      **Kept as the site has it, but with no corroboration.** Neither `Bildstock` nor
+      `Wegkapelle` occurs once in 13.4 million characters — these books are doctrinal and
+      biographical and have no reason to name the structure type. `Bildstock` is the correct
+      general German word for a wayside pillar-shrine, so the existing row is plausible; it
+      is simply unattested here. The same gap exists in Portuguese (`Ermida`, one lowercase
+      hit) and was closed only for Italian, where the movement's own Italian page gives
+      `edicola`.
+    source: site-de
+    review: true
+
+  - en: Schönstatt vs Schoenstatt (the name itself)
+    de: Schönstatt
+    why: >
+      **Settled by the maintainer on 2026-08-11: "Schönstatt in German".** Recorded here as a
+      decision rather than as the open question it was. The books already pointed this way —
+      `Schönstatt` 2,935 against `Schoenstatt` 1,167 — but consistency across dozens of rows
+      is a house decision, not a translation one, so it needed asking.
+
+      **German only.** `Schoenstatt` is unchanged in the it/es/pt/en rows and in every phrase
+      *key*, which is a read-only lookup string.
+
+      Four things keep the digraph even in a German row, because each is a name somebody else
+      owns or a string a machine reads: `Schoenstatt Link` (the site's own name — the site is
+      `schoenstatt.link`, and es/pt/de all keep it verbatim); non-German bodies' registered
+      names (`Santuario Schoenstatt Villa Ballester`, `Schoenstatt of Ohio`); URLs, domains
+      and email addresses; and literal strings a reader must copy, such as the Waze search
+      term in phrase 7453 and the app-store title `(Schoenstatt Shrines)` in 7082.
+
+      The adjective needed no decision: the existing rows are already `Schönstätter` and
+      `schönstättische`. See ../style/de.md for the sweep this required — 23 occurrences in 21
+      German rows, of which 17 were exclusions.
+
+  # ---- added 2026-08-11, while closing the German gap ----
+
+  - en: Unity Cross
+    de: Einheitskreuz
+    context: >
+      the cross beside the image in a wayside shrine, with seven rays for the gifts of the
+      Holy Spirit; phrase 6988, whose source key is Spanish (`la Cruz de la Unidad`)
+    why: >
+      **Chosen, not attested.** `Einheitskreuz` is the compound German forms for this and is
+      what the movement's usage suggests, but no source in `data/` attests it — the books in
+      `../reading-material` do not name the object, the same gap that leaves
+      `Bildstock` unattested above. The alternative is `Kreuz der Einheit`.
+      One row depends on it. See ../../docs/de-review-2026-08-11.md §2.2.
+    review: true
+    phrase_ids: [6988]

@@ -1,0 +1,429 @@
+[
+ {
+  "phrase_id": 7136,
+  "lang": "de",
+  "expect": "Sie bilingue?\n",
+  "new": "Bist du zweisprachig?\n",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12906,
+  "lang": "de",
+  "expect": "Sie löschen nun %s",
+  "new": "Du löschst nun %s",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6627,
+  "lang": "de",
+  "expect": "Sind Sie ein Mensch?",
+  "new": "Bist du ein Mensch?",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12828,
+  "lang": "de",
+  "expect": "Prüfen Sie Ihre E-Mails",
+  "new": "Prüfe deine E-Mails",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12827,
+  "lang": "de",
+  "expect": "Ihr Anmeldelink für schoenstatt.link",
+  "new": "Dein Anmeldelink für schoenstatt.link",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6677,
+  "lang": "de",
+  "expect": "Bitte geben Sie den folgenden Text ein:",
+  "new": "Bitte gib den folgenden Text ein:",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7282,
+  "lang": "de",
+  "expect": "Bitte bestätigen Sie Ihre E-Mail-Adresse",
+  "new": "Bitte bestätige deine E-Mail-Adresse",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12852,
+  "lang": "de",
+  "expect": "Das Objekt, das Sie löschen möchten, existiert nicht.",
+  "new": "Das Objekt, das du löschen möchtest, existiert nicht.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7329,
+  "lang": "de",
+  "expect": "Das Objekt, das Sie löschen möchten, existiert nicht.",
+  "new": "Das Objekt, das du löschen möchtest, existiert nicht.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12830,
+  "lang": "de",
+  "expect": "Nach ein oder zwei Minuten noch nichts im Postfach? Prüfen Sie den Spam-Ordner.",
+  "new": "Nach ein oder zwei Minuten noch nichts im Postfach? Prüfe den Spam-Ordner.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6702,
+  "lang": "de",
+  "expect": "Ihre E-Mail-Adresse wurde bestätigt! Bitte melden Sie sich an, um fortzufahren.",
+  "new": "Deine E-Mail-Adresse wurde bestätigt! Bitte melde dich an, um fortzufahren.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6740,
+  "lang": "de",
+  "expect": "Das Jahr genügt; wenn ein genaueres Datum bekannt ist, verwenden Sie das Format JJJJ-MM-TT",
+  "new": "Das Jahr genügt; wenn ein genaueres Datum bekannt ist, verwende das Format JJJJ-MM-TT",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 9076,
+  "lang": "de",
+  "expect": "Die Eingabe ist keine gültige E-Mail-Adresse. Verwenden Sie das Grundformat local-part@hostname",
+  "new": "Die Eingabe ist keine gültige E-Mail-Adresse. Verwende das Grundformat local-part@hostname",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12829,
+  "lang": "de",
+  "expect": "Wenn diese Adresse gültig ist, haben wir Ihnen einen Anmeldelink gesendet. Er läuft in %s Minuten ab.",
+  "new": "Wenn diese Adresse gültig ist, haben wir dir einen Anmeldelink gesendet. Er läuft in %s Minuten ab.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 13134,
+  "lang": "de",
+  "expect": "Token ausgestellt. Kopieren Sie es jetzt — es wird nicht erneut angezeigt und wir speichern es nicht: %s",
+  "new": "Token ausgestellt. Kopiere es jetzt — es wird nicht erneut angezeigt und wir speichern es nicht: %s",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6589,
+  "lang": "de",
+  "expect": "Alle folgenden E-Mails sind eine Simulation. Klicken Sie auf „Jetzt senden“, um die E-Mails zu versenden.",
+  "new": "Alle folgenden E-Mails sind eine Simulation. Klicke auf „Jetzt senden“, um die E-Mails zu versenden.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12944,
+  "lang": "de",
+  "expect": "Haben Sie Fotos von Heiligtümern, die Sie einsenden möchten? Siehe unser %sVerfahren zum Einsenden von Fotos%s.",
+  "new": "Hast du Fotos von Heiligtümern, die du einsenden möchtest? Siehe unser %sVerfahren zum Einsenden von Fotos%s.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7139,
+  "lang": "de",
+  "expect": "Haben Sie Fotos von Heiligtümern, die Sie einsenden möchten? Siehe unser %sVerfahren zum Einsenden von Fotos%s.",
+  "new": "Hast du Fotos von Heiligtümern, die du einsenden möchtest? Siehe unser %sVerfahren zum Einsenden von Fotos%s.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12837,
+  "lang": "de",
+  "expect": "Geben Sie Ihre E-Mail-Adresse ein, und wir senden Ihnen einen Link zum Anmelden. Sie müssen sich kein Passwort merken.",
+  "new": "Gib deine E-Mail-Adresse ein, und wir senden dir einen Link zum Anmelden. Du musst dir kein Passwort merken.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12821,
+  "lang": "de",
+  "expect": "Geben Sie Ihre E-Mail-Adresse ein, und wir senden Ihnen einen Link für den Einstieg. Sie müssen sich kein Passwort aussuchen oder merken.",
+  "new": "Gib deine E-Mail-Adresse ein, und wir senden dir einen Link für den Einstieg. Du musst dir kein Passwort aussuchen oder merken.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 5880,
+  "lang": "de",
+  "expect": "Ihre Suche ergibt mehr Veröffentlichungen als die zulässige Höchstzahl. Es werden nur die ersten 300 Ergebnisse angezeigt.",
+  "new": "Deine Suche ergibt mehr Veröffentlichungen als die zulässige Höchstzahl. Es werden nur die ersten 300 Ergebnisse angezeigt.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12834,
+  "lang": "de",
+  "expect": "Anmeldelinks laufen ab und können nur einmal verwendet werden. Fordern Sie einen neuen an, dann liegt er in Ihrem Postfach.",
+  "new": "Anmeldelinks laufen ab und können nur einmal verwendet werden. Fordere einen neuen an, dann liegt er in deinem Postfach.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 13128,
+  "lang": "de",
+  "expect": "Dieses Konto besitzt keine der Rollen, die für ein API-Token in Frage kommen (%s); es kann daher kein Token ausgestellt werden. Vergeben Sie zuerst die Rolle, wenn das beabsichtigt ist.",
+  "new": "Dieses Konto besitzt keine der Rollen, die für ein API-Token in Frage kommen (%s); es kann daher kein Token ausgestellt werden. Vergib zuerst die Rolle, wenn das beabsichtigt ist.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12861,
+  "lang": "de",
+  "expect": "Legacy-Kernel: Seiten werden jetzt nur für Sie über Laminas\\Mvc\\Application gerendert. Prüfen Sie /_health — auf der Laminas-Seite antwortet es nicht mehr mit 200.",
+  "new": "Legacy-Kernel: Seiten werden jetzt nur für dich über Laminas\\Mvc\\Application gerendert. Prüfe /_health — auf der Laminas-Seite antwortet es nicht mehr mit 200.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 11772,
+  "lang": "de",
+  "expect": "Bitte prüfen Sie Ihre E-Mails auf einen Bestätigungslink. Falls Sie ihn nicht finden, sehen Sie auch im Spam-Ordner nach.",
+  "new": "Bitte prüfe deine E-Mails auf einen Bestätigungslink. Falls du ihn nicht findest, sieh auch im Spam-Ordner nach.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12478,
+  "lang": "de",
+  "expect": "Bitte prüfen Sie Ihre E-Mails auf einen Bestätigungslink. Falls Sie ihn nicht finden, sehen Sie auch im Spam-Ordner nach.",
+  "new": "Bitte prüfe deine E-Mails auf einen Bestätigungslink. Falls du ihn nicht findest, sieh auch im Spam-Ordner nach.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7283,
+  "lang": "de",
+  "expect": "Bitte prüfen Sie Ihre E-Mails auf einen Bestätigungslink. Falls Sie ihn nicht finden, sehen Sie auch im Spam-Ordner nach.",
+  "new": "Bitte prüfe deine E-Mails auf einen Bestätigungslink. Falls du ihn nicht findest, sieh auch im Spam-Ordner nach.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12477,
+  "lang": "de",
+  "expect": "Vielen Dank für Ihre Registrierung! Bitte prüfen Sie Ihre E-Mails auf einen Bestätigungslink. Schauen Sie auch im Spam-Ordner nach, falls Sie ihn nicht finden.",
+  "new": "Vielen Dank für deine Registrierung! Bitte prüfe deine E-Mails auf einen Bestätigungslink. Schau auch im Spam-Ordner nach, falls du ihn nicht findest.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6704,
+  "lang": "de",
+  "expect": "Vielen Dank für Ihre Registrierung! Bitte prüfen Sie Ihre E-Mails auf einen Bestätigungslink. Schauen Sie auch im Spam-Ordner nach, falls Sie ihn nicht finden.",
+  "new": "Vielen Dank für deine Registrierung! Bitte prüfe deine E-Mails auf einen Bestätigungslink. Schau auch im Spam-Ordner nach, falls du ihn nicht findest.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7569,
+  "lang": "de",
+  "expect": "Dieses Bestätigungstoken ist abgelaufen. Wir haben Ihnen gerade eine neue Bestätigungs-E-Mail gesendet, bitte prüfen Sie Ihre E-Mails. Falls Sie Schwierigkeiten haben, nehmen Sie bitte Kontakt mit uns auf",
+  "new": "Dieses Bestätigungstoken ist abgelaufen. Wir haben dir gerade eine neue Bestätigungs-E-Mail gesendet, bitte prüfe deine E-Mails. Falls du Schwierigkeiten hast, nimm bitte Kontakt mit uns auf",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7707,
+  "lang": "de",
+  "expect": "Bitte geben Sie ein gültiges Datum ein. Denken Sie daran, bei einstelligen Monats- und Tageszahlen eine `0` voranzustellen.",
+  "new": "Bitte gib ein gültiges Datum ein. Denk daran, bei einstelligen Monats- und Tageszahlen eine `0` voranzustellen.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6748,
+  "lang": "de",
+  "expect": "Geben Sie Angaben zum Inhaber der Autorenrechte, Kontaktinformationen und die Lizenz an, unter der die Veröffentlichung erschienen ist.",
+  "new": "Gib Angaben zum Inhaber der Autorenrechte, Kontaktinformationen und die Lizenz an, unter der die Veröffentlichung erschienen ist.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6363,
+  "lang": "de",
+  "expect": "Nehmen Sie bitte Kontakt mit uns auf, wenn Sie beim Projekt mithelfen möchten oder eine Bibliothek in den Katalog aufnehmen lassen wollen.",
+  "new": "Nimm bitte Kontakt mit uns auf, wenn du beim Projekt mithelfen möchtest oder eine Bibliothek in den Katalog aufnehmen lassen willst.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6573,
+  "lang": "de",
+  "expect": "Verwenden Sie dieses Feld, wenn die gedruckte Katalognummer geändert werden soll. Sie wird auf die nächsten zu druckenden Etiketten übernommen.",
+  "new": "Verwende dieses Feld, wenn die gedruckte Katalognummer geändert werden soll. Sie wird auf die nächsten zu druckenden Etiketten übernommen.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6736,
+  "lang": "de",
+  "expect": "Um zu vermeiden, dass mehrere Editionen desselben Buches im Katalog erscheinen, wählen Sie bitte die neueste Edition dieses Werkes aus der Liste.",
+  "new": "Um zu vermeiden, dass mehrere Editionen desselben Buches im Katalog erscheinen, wähle bitte die neueste Edition dieses Werkes aus der Liste.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7792,
+  "lang": "de",
+  "expect": "Diese Abkürzung hilft, die Suchergebnisse zu sortieren. Halten Sie sie kurz, um Platz in der Datenbank zu sparen, da sie jedem Buch hinzugefügt wird.",
+  "new": "Diese Abkürzung hilft, die Suchergebnisse zu sortieren. Halte sie kurz, um Platz in der Datenbank zu sparen, da sie jedem Buch hinzugefügt wird.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6737,
+  "lang": "de",
+  "expect": "Das Werk in der Originalsprache, aus der dieses Buch übersetzt wurde. Wenn es mehr als eine Edition in der Originalsprache gibt, wählen Sie die neueste Edition.",
+  "new": "Das Werk in der Originalsprache, aus der dieses Buch übersetzt wurde. Wenn es mehr als eine Edition in der Originalsprache gibt, wähle die neueste Edition.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7332,
+  "lang": "de",
+  "expect": "Normalerweise genügt die Seitenanzahl, es sei denn, das Buch hat am Anfang mit römischen Ziffern nummerierte Seiten. Verwenden Sie in diesem Fall die Form `xxxii+442`.",
+  "new": "Normalerweise genügt die Seitenanzahl, es sei denn, das Buch hat am Anfang mit römischen Ziffern nummerierte Seiten. Verwende in diesem Fall die Form `xxxii+442`.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6593,
+  "lang": "de",
+  "expect": "Nachfolgend finden Sie die Liste der Bücher, die auf Ihren Namen in der Bibliothek <strong>%s</strong> ausgeliehen sind. Bitte nehmen Sie sich die Zeit, überfällige Bücher online zu verlängern, oder melden Sie verlorene Bücher dem Bibliothekar.",
+  "new": "Nachfolgend findest du die Liste der Bücher, die auf deinen Namen in der Bibliothek <strong>%s</strong> ausgeliehen sind. Bitte nimm dir die Zeit, überfällige Bücher online zu verlängern, oder melde verlorene Bücher dem Bibliothekar.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 8672,
+  "lang": "de",
+  "expect": "Wenn Sie mit dem ursprünglichen Künstler (dem Inhaber des Urheberrechts) sprechen, bitten Sie ihn, seine Lieder unter einer der <a href=\"https://creativecommons.org/licenses/\">Creative-Commons-Lizenzen</a> zu veröffentlichen. Das bedeutet nicht, dass er seine Urheberrechte \"abgeben\" muss; es legt lediglich die \"Standardberechtigungen\" für die Nutzung des Liedes fest. Wenn er sich für eine dieser Lizenzen entscheidet, bitten Sie um eine E-Mail mit dieser Entscheidung und leiten Sie diese an <a href=\"mailto:webmaster@schoenstatt.link\">webmaster@schoenstatt.link</a> weiter.",
+  "new": "Wenn du mit dem ursprünglichen Künstler (dem Inhaber des Urheberrechts) sprichst, bitte ihn, seine Lieder unter einer der <a href=\"https://creativecommons.org/licenses/\">Creative-Commons-Lizenzen</a> zu veröffentlichen. Das bedeutet nicht, dass er seine Urheberrechte \"abgeben\" muss; es legt lediglich die \"Standardberechtigungen\" für die Nutzung des Liedes fest. Wenn er sich für eine dieser Lizenzen entscheidet, bitte um eine E-Mail mit dieser Entscheidung und leite diese an <a href=\"mailto:webmaster@schoenstatt.link\">webmaster@schoenstatt.link</a> weiter.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7039,
+  "lang": "de",
+  "expect": "Möchten Sie die Phrase \"%s\" wirklich aus der Übersetzungsdatenbank löschen? Löschen Sie sie nur, wenn Sie sicher sind, dass diese Übersetzung nicht mehr verwendet wird; andernfalls erscheint sie wieder, sobald die Webseite das nächste Mal auf dieselbe Zeichenfolge trifft.",
+  "new": "Möchtest du die Phrase \"%s\" wirklich aus der Übersetzungsdatenbank löschen? Lösche sie nur, wenn du sicher bist, dass diese Übersetzung nicht mehr verwendet wird; andernfalls erscheint sie wieder, sobald die Webseite das nächste Mal auf dieselbe Zeichenfolge trifft.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6169,
+  "lang": "de",
+  "expect": "Löschen Sie eine Ernennung nur, wenn sie versehentlich erstellt wurde! Wenn Sie die verantwortliche Person wechseln möchten, setzen Sie einfach ein \"Amtsende\" in der Vergangenheit und erstellen Sie eine neue Ernennung.",
+  "new": "Lösche eine Ernennung nur, wenn sie versehentlich erstellt wurde! Wenn du die verantwortliche Person wechseln möchtest, setze einfach ein \"Amtsende\" in der Vergangenheit und erstelle eine neue Ernennung.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6341,
+  "lang": "de",
+  "expect": "Löschen Sie eine Person nur dann, wenn sie versehentlich angelegt wurde! Wenn Sie die verantwortliche Person wechseln möchten, setzen Sie einfach ein „Amtsende“ in der Vergangenheit und erstellen Sie eine neue Ernennung.",
+  "new": "Lösche eine Person nur dann, wenn sie versehentlich angelegt wurde! Wenn du die verantwortliche Person wechseln möchtest, setze einfach ein „Amtsende“ in der Vergangenheit und erstelle eine neue Ernennung.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 12826,
+  "lang": "de",
+  "expect": "Hallo %s,\n\nklicken Sie auf den folgenden Link, um sich bei Schoenstatt Link anzumelden:\n\n%s\n\nDer Link ist %s Minuten gültig und kann nur einmal verwendet werden.\nWenn Sie keine Anmeldung angefordert haben, können Sie diese Nachricht ignorieren.",
+  "new": "Hallo %s,\n\nklicke auf den folgenden Link, um dich bei Schoenstatt Link anzumelden:\n\n%s\n\nDer Link ist %s Minuten gültig und kann nur einmal verwendet werden.\nWenn du keine Anmeldung angefordert hast, kannst du diese Nachricht ignorieren.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6755,
+  "lang": "de",
+  "expect": "Guten Tag %s,\n\nwillkommen bei Schoenstatt Link! Bevor wir beginnen, bestätigen Sie bitte\nIhre E-Mail-Adresse, indem Sie auf diesen Link klicken:\n\n%s\n\nWenn Sie sich nicht bei Schoenstatt Link registriert haben, ignorieren Sie diese Nachricht bitte.\nBei Fragen oder Anmerkungen wenden Sie sich an den Support unter support@schoenstatt.link.",
+  "new": "Hallo %s,\n\nwillkommen bei Schoenstatt Link! Bevor wir beginnen, bestätige bitte\ndeine E-Mail-Adresse, indem du auf diesen Link klickst:\n\n%s\n\nWenn du dich nicht bei Schoenstatt Link registriert hast, ignoriere diese Nachricht bitte.\nBei Fragen oder Anmerkungen wende dich an den Support unter support@schoenstatt.link.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6756,
+  "lang": "de",
+  "expect": "Vielen Dank, dass Sie ein Konto bei Schoenstatt Link erstellt haben! Innerhalb weniger Minuten erhalten Sie eine E-Mail zur Bestätigung Ihrer E-Mail-Adresse.",
+  "new": "Vielen Dank, dass du ein Konto bei Schoenstatt Link erstellt hast! Innerhalb weniger Minuten erhältst du eine E-Mail zur Bestätigung deiner E-Mail-Adresse.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6954,
+  "lang": "de",
+  "expect": "Biegen Sie nach der Autobahnausfahrt in die erste Einfahrt rechts ein.\n\n**Beichtgelegenheit**: nach Vereinbarung; rufen Sie gern an.",
+  "new": "Bieg nach der Autobahnausfahrt in die erste Einfahrt rechts ein.\n\n**Beichtgelegenheit**: nach Vereinbarung; ruf gern an.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 6951,
+  "lang": "de",
+  "expect": "Biegen Sie nach der Autobahnausfahrt in die erste Einfahrt rechts ein.\n\n**Messzeiten**: Sonntag 11:00 Uhr; jeden dritten Sonntag 19 Uhr\n\n**Anbetung**: Sonntag 20 Uhr\n\n**Beichtgelegenheit**: nach Vereinbarung; rufen Sie gern an.",
+  "new": "Bieg nach der Autobahnausfahrt in die erste Einfahrt rechts ein.\n\n**Messzeiten**: Sonntag 11:00 Uhr; jeden dritten Sonntag 19 Uhr\n\n**Anbetung**: Sonntag 20 Uhr\n\n**Beichtgelegenheit**: nach Vereinbarung; ruf gern an.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7205,
+  "lang": "de",
+  "expect": "Direkt an der Hauptstraße; fahren Sie nicht in den Ort Thun-Saint-Martin hinein. Von Cambrai kommend liegt es kurz hinter dem Ort Escaudoeuvres.",
+  "new": "Direkt an der Hauptstraße; fahr nicht in den Ort Thun-Saint-Martin hinein. Von Cambrai kommend liegt es kurz hinter dem Ort Escaudoeuvres.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7090,
+  "lang": "de",
+  "expect": "**Anfahrt**\n\nSie kommen über Mederos, auf dem Weg zum Friedhof Guadalupe; daneben liegt die Einfahrt zur Colonia Cañada. Fragen Sie den Wachmann um Erlaubnis; Schilder führen Sie zum Heiligtum.",
+  "new": "**Anfahrt**\n\nDu kommst über Mederos, auf dem Weg zum Friedhof Guadalupe; daneben liegt die Einfahrt zur Colonia Cañada. Frag den Wachmann um Erlaubnis; Schilder führen dich zum Heiligtum.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7198,
+  "lang": "de",
+  "expect": "Das Heiligtum ist normalerweise geschlossen. Es gibt aber dennoch die Möglichkeit, hineinzugehen und es zu besuchen. \nFragen Sie einfach direkt die Anbetungsschwestern. Meist nehmen sie sich die Zeit und zeigen Ihnen — besonders als Pilger ;-) — ihr Heiligtum. Klopfen Sie einfach an ihre Tür und fragen Sie.",
+  "new": "Das Heiligtum ist normalerweise geschlossen. Es gibt aber dennoch die Möglichkeit, hineinzugehen und es zu besuchen. \nFrag einfach direkt die Anbetungsschwestern. Meist nehmen sie sich die Zeit und zeigen dir — besonders als Pilger ;-) — ihr Heiligtum. Klopf einfach an ihre Tür und frag.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7053,
+  "lang": "de",
+  "expect": "Bitte ergänzen Sie alle verfügbaren Angaben, einschließlich der Ausnahmen von der allgemeinen Regel. \n(Sommer-/Winterzeiten, Monate ohne Messe usw.). Wenn Sie den Zeitplan auf einer Webseite gefunden haben, geben Sie den Link an, \ndamit die Nutzer ihn überprüfen können.",
+  "new": "Bitte ergänze alle verfügbaren Angaben, einschließlich der Ausnahmen von der allgemeinen Regel. \n(Sommer-/Winterzeiten, Monate ohne Messe usw.). Wenn du den Zeitplan auf einer Webseite gefunden hast, gib den Link an, \ndamit die Nutzer ihn überprüfen können.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7232,
+  "lang": "de",
+  "expect": "Bitte geben Sie alle verfügbaren Angaben an, einschließlich der Ausnahmen von der allgemeinen Regel. \n(Sommer-/Winterzeiten, Monate ohne Messe usw.). Wenn Sie den Zeitplan auf einer Webseite gefunden haben, fügen Sie den Link hinzu, \ndamit die Nutzer ihn überprüfen können. Achtung: Dieses Feld wird nicht übersetzt.",
+  "new": "Bitte gib alle verfügbaren Angaben an, einschließlich der Ausnahmen von der allgemeinen Regel. \n(Sommer-/Winterzeiten, Monate ohne Messe usw.). Wenn du den Zeitplan auf einer Webseite gefunden hast, füge den Link hinzu, \ndamit die Nutzer ihn überprüfen können. Achtung: Dieses Feld wird nicht übersetzt.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7050,
+  "lang": "de",
+  "expect": "Bitte beachten Sie die Spezifikation von <a href=\"https://schema.org/eventSchedule\" target=\"_blank\">\nEvent</a> und <a href=\"https://schema.org/eventSchedule\" target=\"_blank\">eventSchedule</a>\nim Format JSON+LD. Bitte fügen Sie eine location-Eigenschaft ein, die auf das Heiligtum verweist.",
+  "new": "Bitte beachte die Spezifikation von <a href=\"https://schema.org/eventSchedule\" target=\"_blank\">\nEvent</a> und <a href=\"https://schema.org/eventSchedule\" target=\"_blank\">eventSchedule</a>\nim Format JSON+LD. Bitte füge eine location-Eigenschaft ein, die auf das Heiligtum verweist.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7168,
+  "lang": "de",
+  "expect": "Dies ist der Name, der (soweit zutreffend) in Google Maps veröffentlicht würde. Mehrere Gruppierungsarten haben `Namensformate`, die dieses Feld in ein gebräuchliches Format einsetzen, zum Beispiel `Schönstatt-Heiligtum [Name]`. Das erleichtert die Massenübersetzung, kann aber unten überschrieben werden.\nVerwenden Sie für die Namen von Schönstatt-Heiligtümern den Namen der nächstgelegenen Stadt, der das Heiligtum zugeordnet werden kann (zum Beispiel Tucumán), oder ergänzen Sie bei einer wenig bekannten Stadt den Staat / die Provinz nach einem Komma (zum Beispiel Sleepy Eye, Minnesota). Gibt es in derselben Stadt mehrere Heiligtümer, achten Sie darauf, sie voneinander zu unterscheiden. Halten Sie die Namen möglichst kurz, vermeiden Sie aber Abkürzungen. Längere Namen können für den `Namen innerhalb Schönstatts` verwendet werden.",
+  "new": "Dies ist der Name, der (soweit zutreffend) in Google Maps veröffentlicht würde. Mehrere Gruppierungsarten haben `Namensformate`, die dieses Feld in ein gebräuchliches Format einsetzen, zum Beispiel `Schönstatt-Heiligtum [Name]`. Das erleichtert die Massenübersetzung, kann aber unten überschrieben werden.\nVerwende für die Namen von Schönstatt-Heiligtümern den Namen der nächstgelegenen Stadt, der das Heiligtum zugeordnet werden kann (zum Beispiel Tucumán), oder ergänze bei einer wenig bekannten Stadt den Staat / die Provinz nach einem Komma (zum Beispiel Sleepy Eye, Minnesota). Gibt es in derselben Stadt mehrere Heiligtümer, achte darauf, sie voneinander zu unterscheiden. Halte die Namen möglichst kurz, vermeide aber Abkürzungen. Längere Namen können für den `Namen innerhalb Schönstatts` verwendet werden.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7062,
+  "lang": "de",
+  "expect": "Wie kommt man zum Heiligtum von Mendoza? Vom Zentrum aus nehmen Sie die Avenida San Martín in Richtung Süden. Diese Hauptachse heißt weiter südlich auch San Martín Sur (früher Ruta Panamericana). Nach dem Einkaufszentrum Palmares fahren Sie nach 200 m in das Wohngebiet Loteo Portal de Benegas ein — sagen Sie dem Wachmann, dass Sie zum Heiligtum fahren —, durch das Tor bei Nr. 3300 der Av. San Martín Sur, und dann nach Westen über die Straße Kentenich.",
+  "new": "Wie kommt man zum Heiligtum von Mendoza? Vom Zentrum aus nimmst du die Avenida San Martín in Richtung Süden. Diese Hauptachse heißt weiter südlich auch San Martín Sur (früher Ruta Panamericana). Nach dem Einkaufszentrum Palmares fährst du nach 200 m in das Wohngebiet Loteo Portal de Benegas ein — sag dem Wachmann, dass du zum Heiligtum fährst —, durch das Tor bei Nr. 3300 der Av. San Martín Sur, und dann nach Westen über die Straße Kentenich.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7285,
+  "lang": "de",
+  "expect": "Lieber Pilger, dieser Ort der Geborgenheit erwartet Sie. Bitte kündigen Sie Ihren Besuch vorher an, damit wir Sie empfangen und herzlich und angemessen aufnehmen können — über die Facebook-Seite  https://www.facebook.com/SchoenstattBallester/ oder telefonisch unter +54 11 4768-5269  \n\n☑ MESSEN: \n------- Sonntags um 18 Uhr\n------- Am 18. jeden Monats, Bündnisfest, Messen um 15.30 und 20 Uhr\n\n☑ EUCHARISTISCHE ANBETUNG:\n------- jeden DONNERSTAG von 9 bis 17 Uhr\n------- jeden MITTWOCH, mit ROSENKRANZ für das LEBEN von 14.30 bis 15.30 Uhr\n\n☑ MÄNNERGRUPPE \"Los Madrugadores\", \njeden ersten Samstag im Monat um 7.30 Uhr\n\n☑ DEVOTIONALIENLADEN und AUSKUNFT: \ntäglich von 8 bis 18 Uhr (dienstags und mittwochs nur bis 15 Uhr)\n\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\nSantuario Schoenstatt Villa Ballester\nColón 3550, V. Ballester\nTel. 4768-5269\n\nÖffentliche Verkehrsmittel\nZug Linie Mitre, Station Villa Ballester (10 Blocks entfernt) Busse: 78 -190 - 87- 204a - 237 abc - 252b 343 (R304)",
+  "new": "Lieber Pilger, dieser Ort der Geborgenheit erwartet dich. Bitte kündige deinen Besuch vorher an, damit wir dich empfangen und herzlich und angemessen aufnehmen können — über die Facebook-Seite  https://www.facebook.com/SchoenstattBallester/ oder telefonisch unter +54 11 4768-5269  \n\n☑ MESSEN: \n------- Sonntags um 18 Uhr\n------- Am 18. jeden Monats, Bündnisfest, Messen um 15.30 und 20 Uhr\n\n☑ EUCHARISTISCHE ANBETUNG:\n------- jeden DONNERSTAG von 9 bis 17 Uhr\n------- jeden MITTWOCH, mit ROSENKRANZ für das LEBEN von 14.30 bis 15.30 Uhr\n\n☑ MÄNNERGRUPPE \"Los Madrugadores\", \njeden ersten Samstag im Monat um 7.30 Uhr\n\n☑ DEVOTIONALIENLADEN und AUSKUNFT: \ntäglich von 8 bis 18 Uhr (dienstags und mittwochs nur bis 15 Uhr)\n\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\nSantuario Schoenstatt Villa Ballester\nColón 3550, V. Ballester\nTel. 4768-5269\n\nÖffentliche Verkehrsmittel\nZug Linie Mitre, Station Villa Ballester (10 Blocks entfernt) Busse: 78 -190 - 87- 204a - 237 abc - 252b 343 (R304)",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7468,
+  "lang": "de",
+  "expect": "Lieber Pilger, dieser Ort der Geborgenheit erwartet Sie. Bitte kündigen Sie Ihren Besuch vorher an, damit wir Sie empfangen und herzlich und angemessen aufnehmen können — über die Facebook-Seite.\n\n**Öffentliche Verkehrsmittel**\n\nZug Linie Mitre, Station Villa Ballester (10 Blocks entfernt) Busse: 78 -190 - 87- 204a - 237 abc - 252b 343 (R304)",
+  "new": "Lieber Pilger, dieser Ort der Geborgenheit erwartet dich. Bitte kündige deinen Besuch vorher an, damit wir dich empfangen und herzlich und angemessen aufnehmen können — über die Facebook-Seite.\n\n**Öffentliche Verkehrsmittel**\n\nZug Linie Mitre, Station Villa Ballester (10 Blocks entfernt) Busse: 78 -190 - 87- 204a - 237 abc - 252b 343 (R304)",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7196,
+  "lang": "de",
+  "expect": "mit öffentlichen Verkehrsmitteln: \nFahren Sie mit der U-Bahn (grüne Linie U4) oder der Bahn zur Station 'Heiligenstadt' in Wien.\nVon dort nehmen Sie den Bus 38A in Richtung 'Kahlenberg' oder 'Leopoldsberg' und steigen bei der Haltestelle 'Sulzwiese' aus. Diese Haltestelle liegt direkt vor dem Eingang des Schönstatt-Zentrums.\n(Wenn Sie den Bus 38A in Richtung 'Wagenwiese' nehmen, kommen Sie nur den halben Weg; warten Sie an dieser Haltestelle auf den nächsten Bus)",
+  "new": "mit öffentlichen Verkehrsmitteln: \nFahr mit der U-Bahn (grüne Linie U4) oder der Bahn zur Station 'Heiligenstadt' in Wien.\nVon dort nimm den Bus 38A in Richtung 'Kahlenberg' oder 'Leopoldsberg' und steig bei der Haltestelle 'Sulzwiese' aus. Diese Haltestelle liegt direkt vor dem Eingang des Schönstatt-Zentrums.\n(Wenn du den Bus 38A in Richtung 'Wagenwiese' nimmst, kommst du nur den halben Weg; warte an dieser Haltestelle auf den nächsten Bus)",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7222,
+  "lang": "de",
+  "expect": "Sie erreichen das Schönstatt-Zentrum mit dem PKW/Bus von Grinzing aus über die Höhenstraße.\nFür Ihre Anreise mit öffentlichen Verkehrsmitteln benutzen Sie bitte die Buslinie 38A von Heiligenstadt oder Grinzing – in Richtung Kahlenberg! – bis zur Station Sulzwiese. Von der City gelangen Sie mit der U-Bahnlinie U4 nach Heiligenstadt. Der Bus bleibt direkt vor dem Eingang des Schönstatt-Zentrums stehen.\n(Wenn Sie den Bus 38A in Richtung 'Wagenwiese' nehmen, kommen Sie nur den halben Weg; warten Sie an dieser Haltestelle auf den nächsten Bus)",
+  "new": "Du erreichst das Schönstatt-Zentrum mit dem PKW/Bus von Grinzing aus über die Höhenstraße.\nFür deine Anreise mit öffentlichen Verkehrsmitteln benutze bitte die Buslinie 38A von Heiligenstadt oder Grinzing – in Richtung Kahlenberg! – bis zur Station Sulzwiese. Von der City gelangst du mit der U-Bahnlinie U4 nach Heiligenstadt. Der Bus bleibt direkt vor dem Eingang des Schönstatt-Zentrums stehen.\n(Wenn du den Bus 38A in Richtung 'Wagenwiese' nimmst, kommst du nur den halben Weg; warte an dieser Haltestelle auf den nächsten Bus)",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ },
+ {
+  "phrase_id": 7223,
+  "lang": "de",
+  "expect": "Sie erreichen das Schönstatt-Zentrum mit dem PKW/Bus von Grinzing aus über die Höhenstraße.\nFür Ihre Anreise mit öffentlichen Verkehrsmitteln benutzen Sie bitte die Buslinie 38A von Heiligenstadt oder Grinzing – in Richtung Kahlenberg! – bis zur Station Sulzwiese. Von der City gelangen Sie mit der U-Bahnlinie U4 nach Heiligenstadt. Der Bus bleibt direkt vor dem Eingang des Schönstatt-Zentrums stehen.\n(Wenn Sie den Bus 38A in Richtung 'Wagenwiese' nehmen, kommen Sie nur den halben Weg; warten Sie an dieser Haltestelle auf den nächsten Bus)\ndeutsch:\n mit öffentlichen Verkehrsmitteln: Fahren Sie mit der U-Bahn (grüne Linie U4) oder der Bahn zur Station 'Heiligenstadt' in Wien. Von dort nehmen Sie den Bus 38A in Richtung 'Kahlenberg' oder 'Leopoldsberg'. Die Haltestelle 'Sulzwiese' liegt direkt vor dem Schönstatt-Zentrum.",
+  "new": "Du erreichst das Schönstatt-Zentrum mit dem PKW/Bus von Grinzing aus über die Höhenstraße.\nFür deine Anreise mit öffentlichen Verkehrsmitteln benutze bitte die Buslinie 38A von Heiligenstadt oder Grinzing – in Richtung Kahlenberg! – bis zur Station Sulzwiese. Von der City gelangst du mit der U-Bahnlinie U4 nach Heiligenstadt. Der Bus bleibt direkt vor dem Eingang des Schönstatt-Zentrums stehen.\n(Wenn du den Bus 38A in Richtung 'Wagenwiese' nimmst, kommst du nur den halben Weg; warte an dieser Haltestelle auf den nächsten Bus)\ndeutsch:\n mit öffentlichen Verkehrsmitteln: Fahr mit der U-Bahn (grüne Linie U4) oder der Bahn zur Station 'Heiligenstadt' in Wien. Von dort nimm den Bus 38A in Richtung 'Kahlenberg' oder 'Leopoldsberg'. Die Haltestelle 'Sulzwiese' liegt direkt vor dem Schönstatt-Zentrum.",
+  "why": "Sie -> du: the house register decision the maintainer made on 2026-08-11 — the site's other languages are informal and du fits its youthful spirit. Verb forms and possessives converted with it. Rows where Sie means 'it' or 'she' were left alone."
+ }
+]

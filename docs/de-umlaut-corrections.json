@@ -1,0 +1,44 @@
+[
+ {
+  "phrase_id": 15335,
+  "lang": "de",
+  "expect": "Schoenstatt Patres, Florencio Varela",
+  "new": "Schönstatt-Patres, Florencio Varela",
+  "why": "Schoenstatt -> Schönstatt: the house decision the maintainer made on 2026-08-11, and hyphenated to Schönstatt-Patres, the form the site already uses 24-23. Proper names of non-German bodies, URLs and 'Schoenstatt Link' are deliberately unchanged."
+ },
+ {
+  "phrase_id": 15336,
+  "lang": "de",
+  "expect": "Schoenstatt Patres, Florencio Varela",
+  "new": "Schönstatt-Patres, Florencio Varela",
+  "why": "Schoenstatt -> Schönstatt: the house decision the maintainer made on 2026-08-11, and hyphenated to Schönstatt-Patres, the form the site already uses 24-23. Proper names of non-German bodies, URLs and 'Schoenstatt Link' are deliberately unchanged."
+ },
+ {
+  "phrase_id": 7148,
+  "lang": "de",
+  "expect": "Schoenstatt Patres, Florencio Varela",
+  "new": "Schönstatt-Patres, Florencio Varela",
+  "why": "Schoenstatt -> Schönstatt: the house decision the maintainer made on 2026-08-11, and hyphenated to Schönstatt-Patres, the form the site already uses 24-23. Proper names of non-German bodies, URLs and 'Schoenstatt Link' are deliberately unchanged."
+ },
+ {
+  "phrase_id": 12941,
+  "lang": "de",
+  "expect": "Heilegtum Schoenstatt",
+  "new": "Schönstatt-Heiligtum",
+  "why": "Two defects. 'Heilegtum' is a misspelling of 'Heiligtum'; and Schönstatt takes the umlaut per the maintainer's 2026-08-11 house decision. Written as the compound Schönstatt-Heiligtum, which is what data/style/de.md already prescribes for this exact English key."
+ },
+ {
+  "phrase_id": 7458,
+  "lang": "de",
+  "expect": "Heilegtum Schoenstatt",
+  "new": "Schönstatt-Heiligtum",
+  "why": "Two defects. 'Heilegtum' is a misspelling of 'Heiligtum'; and Schönstatt takes the umlaut per the maintainer's 2026-08-11 house decision. Written as the compound Schönstatt-Heiligtum, which is what data/style/de.md already prescribes for this exact English key."
+ },
+ {
+  "phrase_id": 6749,
+  "lang": "de",
+  "expect": "Dieser Name wird in Google Maps veröffentlicht (falls möglich). Verschiedene Gruppierungstypen beinhalten Namensformate, die dieses Feld in ein Standardformat einfügen, z.B. \"Schoenstatt-Bewegung von [Ortsname]\". Dies vereinfacht die Massenübersetzung, kann aber weiter unten abgeschaltet werden.",
+  "new": "Dieser Name wird in Google Maps veröffentlicht (falls möglich). Verschiedene Gruppierungstypen beinhalten Namensformate, die dieses Feld in ein Standardformat einfügen, z.B. \"Schönstatt-Bewegung von [Ortsname]\". Dies vereinfacht die Massenübersetzung, kann aber weiter unten abgeschaltet werden.",
+  "why": "Schönstatt with the umlaut, per the maintainer's house decision of 2026-08-11 (data/style/de.md). The movement's own name in German prose; the placeholder [Ortsname] and the rest of the string are untouched."
+ }
+]

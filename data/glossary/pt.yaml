@@ -1,0 +1,348 @@
+# Schoenstatt terms and their agreed Portuguese rendering.
+#
+# One entry per decision. `pt` is what to write; `why` is the evidence that settled it.
+# An entry with `pt: ~` is an open question — do not guess it, ask.
+#
+# Verified against production and the sources below on 2026-08-10.
+# See ../style/pt.md for register and orthography.
+#
+# ## This glossary rests on the movement's own Portuguese books, not on inference
+#
+# The Italian glossary had to reason from the site's other four languages, checked against
+# whatever the movement had published on the web. Portuguese is in a much better position:
+# eleven Brazilian titles published by the Instituto Secular Padres de Schoenstatt and the
+# Irmãs de Maria were supplied for this work, 3.1 million characters of them. Where a term
+# below carries a count, that count is occurrences across that corpus.
+#
+# **The books are copyrighted and their text is not in this repository.** What is here is
+# the term, how often it occurs, and at most a clause of context — which is what a
+# glossary needs. Extract them with `tools/extract_reading_material.py`, which writes to a
+# scratch directory outside the repo.
+#
+# **A count is strong evidence, not proof.** `Aliança de Amor` at 200 occurrences across
+# four independent titles settles the question. A term at 1 or 3 occurrences is a hint, and
+# is marked as such.
+
+sources:
+  - id: 150-perguntas
+    what: >
+      *150 Perguntas sobre Schoenstatt*, Pe. Rafael Fernandes Andraca, Instituto Secular
+      Padres de Schoenstatt, São Paulo (translated from the Spanish original with licence
+      from Editorial Patris Chile). ~998,000 characters. **The single most useful source
+      here**: it is a catechism of the charism, so it names and then defines each term.
+  - id: segundas-feiras
+    what: >
+      *Às segundas-feiras ao anoitecer* — Kentenich's Milwaukee family conferences,
+      volumes 3, 20 (two parts) and 21, translated by Maria da Graça Sales Henriques,
+      Sociedade Mãe e Rainha / Editora Schoenstatt, Santa Maria RS. ~981,000 characters.
+  - id: o-que-significa
+    what: >
+      *O que significa o Santuário de Schoenstatt*. ~438,000 characters. Authoritative for
+      shrine vocabulary specifically.
+  - id: de-santuario
+    what: "*De Santuário a Santuário — Brasil Tabor 3*. ~270,000 characters."
+  - id: introducao
+    what: >
+      *Introdução em Schoenstatt*, Irmãs de Maria de Schoenstatt, Regional Sul, Santa
+      Maria 2003. ~189,000 characters. Where the three-tier community structure is set out.
+  - id: engling
+    what: "*José Engling — Nosso Irmão Maior*. ~166,000 characters."
+  - id: outros
+    what: >
+      *O Mistério de Schoenstatt* (~49,000) and *Carta de Santa Maria* (~12,000). Both
+      small after extraction — mostly scanned images.
+  - id: site-pt
+    what: >
+      The 719 Portuguese translations already on schoenstatt.link. Evidence of house
+      convention and, in several places, of mistakes — see `../../docs/pt-audit.md`.
+
+terms:
+
+  # ---- the core vocabulary ----
+
+  - en: Covenant of Love
+    pt: Aliança de Amor
+    context: the founding act of 18 October 1914
+    why: >
+      **203 occurrences** across four titles, of which 200 capitalize both nouns.
+      Not `Pacto de Amor`, which does not occur.
+    source: [150-perguntas, o-que-significa, segundas-feiras]
+    count: 203
+
+  - en: Capital of Grace
+    pt: Capital de Graças
+    context: charism vocabulary — contributions to the shrine's store of grace
+    why: >
+      **148 occurrences.** Note `Graças` plural, as in Italian `Capitale di Grazie`.
+      `Capital de Graça` singular does not occur.
+    source: [150-perguntas, o-que-significa]
+    count: 148
+
+  - en: Shrine
+    pt: Santuário
+    context: the Schoenstatt Shrine, as a common noun and in headings
+    why: >
+      **1,087 occurrences**, capitalized when it means *the* Shrine. Already the site's
+      convention. Note the books also use **`capelinha`** (103) — *little chapel* — for
+      the shrine building affectionately and historically (`nesta antiga Capelinha de São
+      Miguel`). `capelinha` is the register of devotional prose, not of an interface
+      label; the site should keep `Santuário`.
+    source: [o-que-significa, 150-perguntas]
+    count: 1087
+
+  - en: Original Shrine
+    pt: Santuário Original
+    context: the shrine at Vallendar, `Urheiligtum`
+    why: >
+      **13 occurrences**, and it is what the site already uses. Not `Santuário
+      Originário` and not `Santuário Primitivo`, neither of which occurs. Contrast
+      Italian, where the movement's own pages give `Santuario Originale`.
+    source: [150-perguntas, de-santuario]
+    count: 13
+
+  - en: Mother Thrice Admirable
+    pt: Mãe Três Vezes Admirável
+    context: the title of Our Lady in Schoenstatt; `Mater Ter Admirabilis`
+    why: >
+      **143 occurrences** of the full form, 171 of `Três Vezes Admirável` in longer
+      titles (`Mãe e Rainha Três Vezes Admirável`). **`MTA` (73) is used freely in
+      Portuguese Schoenstatt prose** and needs no expansion for this audience.
+      `Mãe e Rainha` also stands alone as a title.
+    source: [150-perguntas, o-que-significa]
+    count: 143
+
+  - en: Pilgrim Mother
+    pt: Mãe Peregrina
+    context: the Pilgrim Mother campaign
+    why: >
+      The campaign is `Campanha da Mãe Peregrina`, which is what the site already uses.
+      Only 8 occurrences in this corpus because these titles predate the campaign's
+      spread; the form is not in doubt.
+    source: 150-perguntas
+    count: 8
+
+  - en: Father Kentenich / Fr. Kentenich
+    pt: Pe. Kentenich
+    context: the founder
+    why: >
+      **`Pe.` is the Brazilian abbreviation and it dominates: 313 occurrences of
+      `Pe. Kentenich`** against 178 `Padre Kentenich`, 55 `Padre José Kentenich` and 34
+      `Pe. José Kentenich`. `P. Kentenich` (20) is the Spanish/Italian form and is the
+      one to avoid. Use `Pe.` in labels and `Padre José Kentenich` in prose.
+      For the founder as founder the books say **`Pai e Fundador`** (17) far more than
+      `Padre Fundador` (1) — *Father and Founder*, where *Pai* is the family sense.
+    source: [150-perguntas, segundas-feiras]
+
+  - en: Founding Document
+    pt: Documento de Fundação
+    why: "**74 occurrences.** Settled."
+    source: 150-perguntas
+    count: 74
+
+  - en: blank cheque
+    pt: cheque em branco
+    context: the 1939 act of surrender to Providence
+    why: "7 occurrences, lowercase, in quotation marks in the books."
+    source: 150-perguntas
+
+  - en: practical faith in Divine Providence
+    pt: fé prática na Divina Providência
+    why: "**15 occurrences of the full phrase**, 40 of `Divina Providência`."
+    source: 150-perguntas
+    count: 15
+
+  - en: attachment / bond (Verbundenheit)
+    pt: vinculação
+    context: >
+      the *attachments* at the centre of Kentenich's pedagogy; `organismo de vinculações`
+    why: >
+      **98 occurrences**, and `organismo de vinculações` (5) for the *organism of
+      attachments*. This confirms the site's existing `Santuário da Vinculação` for
+      `Heiligtum der Verbundenheit`, and it is worth noting for Italian: Portuguese and
+      Spanish both have a real noun here where Italian does not, which is why the
+      Italian rendering of that shrine's name is on the Italian review queue.
+    source: [150-perguntas, introducao]
+    count: 98
+
+  - en: everyday sanctity (Werktagsheiligkeit)
+    pt: santidade da vida diária
+    why: >
+      The books give `Santidade da vida Diária` (3, as a defined term in quotation marks)
+      and `santidade do dia-a-dia` (7) in running prose. Low counts, but the first is the
+      form used when the term is being *named*, which is what an interface label does.
+      Prefer `Santidade da vida diária`.
+    source: 150-perguntas
+    review: true
+
+  - en: instrument piety
+    pt: Piedade Instrumental
+    why: "1 occurrence, as a named term in quotation marks. A hint, not a settled count."
+    source: 150-perguntas
+    review: true
+
+  # ---- the three tiers, which Portuguese names differently from Spanish ----
+
+  - en: Apostolic League
+    pt: Liga Apostólica
+    context: the tier without community obligation; plural `Ligas Apostólicas`
+    why: >
+      **28 occurrences.** The books set the three tiers out explicitly:
+      `Ligas Apostólicas`, `Uniões Apostólicas`, `Institutos Seculares`, plus the
+      `Movimento Popular e de Peregrinos`.
+    source: introducao
+    count: 28
+
+  - en: Apostolic Federation
+    pt: União Apostólica
+    context: the tier with non-juridical community obligation; plural `Uniões Apostólicas`
+    why: >
+      **`União`, never `Federação`.** This is the most important entry here. Portuguese
+      Schoenstatt calls this tier the *Union*: the books give
+      `União Apostólica de Sacerdotes Diocesanos, de Famílias, de Mães, de Mulheres…`
+      and `Uniões Apostólicas` as the tier name. `Federação` does not occur at all in
+      3.1 million characters.
+
+      **Do not copy Spanish here.** es uses `Federación` throughout, and the site's
+      existing Portuguese correctly does not follow it — `União de Famílias`,
+      `União de Mães`, `União Apostólica Feminina`. That existing Portuguese is right and
+      should be preserved, not "corrected" toward the Spanish.
+    source: introducao
+    count: 19
+
+  - en: Secular Institute
+    pt: Instituto Secular
+    why: "**39 occurrences**, plural `Institutos Seculares`."
+    source: [introducao, 150-perguntas]
+    count: 39
+
+  - en: Pilgrims' movement
+    pt: Movimento Popular e de Peregrinos
+    context: the widest tier of belonging
+    why: >
+      The books name this tier repeatedly and always in full. The site's existing
+      `Movimento diocesano de peregrinos` for `Diocesan pilgrim's movement` is a
+      different, narrower thing and is fine as it stands.
+    source: introducao
+
+  # ---- the communities, verbatim from the books ----
+  #
+  # Every name below was read off the books' own title pages and structural chapters,
+  # which is as authoritative as this gets. Note the article: Portuguese says
+  # `Instituto Secular **dos** Padres`, `**das** Irmãs`, where the site's shorter existing
+  # forms drop it. Both appear in the books; the shorter form is fine for a label.
+
+  - en: Schoenstatt Fathers
+    pt: Padres de Schoenstatt
+    context: a secular institute of priests
+    why: >
+      Full formal name `Instituto Secular dos Padres de Schoenstatt`, which appears on the
+      title page of several of these books as the publisher. The site already uses
+      `Padres de Schoenstatt` and it is right.
+    source: [150-perguntas, segundas-feiras]
+
+  - en: Sisters of Mary
+    pt: Irmãs de Maria
+    why: >
+      **38 occurrences.** Formal name `Instituto Secular das Irmãs de Maria de
+      Schoenstatt`, founded 1926 — the books state both. Matches the site.
+    source: [introducao, segundas-feiras]
+    count: 38
+
+  - en: Brothers of Mary
+    pt: Irmãos de Maria
+    why: "Formal name `Instituto Secular dos Irmãos de Maria de Schoenstatt`."
+    source: introducao
+
+  - en: Ladies of Schoenstatt
+    pt: Nossa Senhora de Schoenstatt
+    context: a secular institute; the site abbreviates it `Inst. Nª Srª de Schoenstatt`
+    why: >
+      The books give **`Instituto Secular Nossa Senhora de Schoenstatt`**, founded 1946.
+      So the institute's formal name is *Our Lady of Schoenstatt*, and English's
+      *Ladies of Schoenstatt* is a second colloquial name for the same body — which is
+      why es, pt and de all render both English keys with the Our Lady name.
+      **The site's existing Portuguese is correct** and needs no change.
+
+      This entry corrected a mistake in the Italian glossary, which had called the
+      equivalent Spanish row an error.
+    source: [introducao, site-pt]
+
+  - en: Diocesan Priests' Institute
+    pt: Instituto dos Sacerdotes Diocesanos de Schoenstatt
+    why: >
+      The books give `Instituto Secular dos Sacerdotes Diocesanos de Schoenstatt` and
+      also the shorter `Instituto de Sacerdotes Diocesanos de Schoenstatt`. The site's
+      existing `Instituto dos Sacerdotes Diocesanos de Schoenstatt` matches.
+    source: introducao
+
+  - en: Family Institute
+    pt: Instituto de Famílias
+    why: >
+      The books give `Instituto Secular de Famílias`. Plural `Famílias` — contrast
+      Italian, where the movement's index gives the singular `Istituto di Famiglia`.
+    source: introducao
+
+  - en: Schoenstatt Youth (young women's branch)
+    pt: Juventude Feminina
+    why: >
+      The books name `Juventude Feminina` and `Juventude Masculina`, subdivided into
+      `Juventude Universitária` and `Juventude Secundária`. Brazilian Schoenstatt calls
+      the men's youth **JUMAS**. Matches the site's `Juventude Feminina de Schoenstatt`.
+    source: introducao
+
+  - en: Schoenstatt Youth (young men's branch)
+    pt: Juventude Masculina
+    source: introducao
+
+  # ---- adjective ----
+
+  - en: Schoenstatt (as adjective — "Schoenstatt literature")
+    pt: schoenstattiano
+    context: >
+      the site already uses `Literatura schoenstattiana`,
+      `Bibliotecas schoenstattianas`
+    why: >
+      **Two spellings circulate and the books prefer the one the site does not.**
+      In this corpus `schoenstatiano` (one `t`, 86 occurrences) beats `schoenstattiano`
+      (two, 9). The site consistently uses the two-`t` form.
+
+      **Left as the site has it.** Both are attested in movement publications, the
+      difference is orthographic rather than semantic, and changing 20-odd existing rows
+      to match a book series' house style is not a translation improvement. Recorded so
+      the next person does not "fix" it in either direction without deciding deliberately.
+    source: [150-perguntas, site-pt]
+    review: true
+
+  # ---- open ----
+
+  - en: Schoenstatt wayside shrine
+    pt: Ermida de Schoenstatt
+    context: the `sch-wayside-shrine` association kind
+    why: >
+      **Settled 2026-08-11, and no longer an open question.** The evidence came from the
+      site's own data rather than from the books: phrase 6970, an association's public
+      notes for the wayside shrine at Grada, Vila Nova de Monsarros (Anadia), has a
+      **Portuguese source string** — written by or for the parish, quoting the bishop of
+      Aveiro — and it uses `ermida` throughout for exactly this structure:
+      `está a nascer uma ermida dedicada a Mãe, Rainha e Vencedora Três Vezes Admirável
+      de Schoenstatt`, the heading `BÊNÇÃO DA ERMIDA`, and `Ermida de Grada (Anadia)`.
+
+      That is native Portuguese usage from the Portuguese movement itself, which is what
+      the corpus could not supply. It also confirms the existing rows are not a calque
+      from Spanish `ermita`.
+
+      Previously recorded as uncertain on one lowercase corpus occurrence
+      (`rezar num Santuário ou diante de uma ermida`). The alternatives stand where they
+      were: `capelinha` (103 in the corpus) is the affectionate word for the shrine
+      chapel itself, so it is taken; `oratório` occurs once. Note the register split —
+      a Portuguese source uses `ermida` for the structure and the diminutive elsewhere.
+    source: [o-que-significa, site-pt, phrase-6970]
+
+  - en: Movement house
+    pt: ~
+    context: the site's existing pt is `Casa do Movimento`
+    why: >
+      `Casa do Movimento` does not occur in the corpus at all — these are devotional and
+      catechetical books and simply have no reason to name the building type. The existing
+      translation is plausible and matches es `Casa del Movimiento`; it is listed here only
+      so nobody records it as book-attested when it is not.

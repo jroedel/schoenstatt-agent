@@ -1,0 +1,107 @@
+# Schoenstatt terms in English — the reference forms.
+#
+# English is not a translation target on this site in the ordinary sense: **1,794 of 1,795
+# phrases already have English, and the one gap is a documented skip.** So this file is not
+# a worklist. It exists for two reasons.
+#
+# 1. **English is the key language.** Almost every phrase key is English, so an error in an
+#    English *translation row* means the key and its own row disagree — which is how a
+#    stale key is detected, and which several other languages then faithfully translated.
+# 2. **English is the pivot everyone reads.** When es/pt/de/it disagree, translators reach
+#    for the English row. It had better be right.
+#
+# Counts are occurrences across 1.34 million characters. Verified 2026-08-10.
+#
+# **The books are copyrighted.** Extract to scratch; commit only term, count and a clause.
+
+sources:
+  - id: kentenich-reader-en
+    what: "*Kentenich Reader* (English edition, `KReader_EN_Ende.pdf`), ~630,000 characters."
+  - id: heavenwards
+    what: "*Heavenwards* — Kentenich's prayer book in English, ~191,000 characters."
+  - id: site-en
+    what: "The 1,794 English rows on schoenstatt.link, and the phrase keys themselves."
+
+terms:
+  - en: Mother Thrice Admirable
+    canonical: Mother Thrice Admirable
+    why: >
+      **105 occurrences of the full title, 109 of `Thrice Admirable`, 49 of `MTA`.** The
+      best-attested English term in the corpus. `MTA` is used freely in Schoenstatt prose.
+    source: [kentenich-reader-en, heavenwards]
+    count: 105
+
+  - en: Founding Document
+    canonical: Founding Document
+    why: "**169 occurrences.** Settled, and matches de `Gründungsurkunde` (199)."
+    source: kentenich-reader-en
+    count: 169
+
+  - en: Apostolic Federation
+    canonical: Federation
+    why: >
+      112 occurrences. Note the site's English keys use `Federation` throughout while the
+      *translations* split three ways — es `Federación`, pt `União`, de `Bund`. English is
+      the pivot here and is consistent.
+    source: kentenich-reader-en
+    count: 112
+
+  - en: Apostolic League
+    canonical: League
+    why: "30 occurrences."
+    source: kentenich-reader-en
+    count: 30
+
+  - en: Secular Institute
+    canonical: Secular Institute
+    why: "`Institute` 38, `Secular Institute` 10."
+    source: kentenich-reader-en
+
+  - en: Sisters of Mary
+    canonical: Sisters of Mary
+    why: "63 occurrences."
+    source: kentenich-reader-en
+    count: 63
+
+  - en: home shrine
+    canonical: home shrine
+    why: >
+      **49 occurrences (32 lowercase, 17 capitalized).** The site has no row for this; noted
+      because when one appears the capitalization is already contested in the sources.
+    source: kentenich-reader-en
+    review: true
+
+  - en: attachments
+    canonical: attachments
+    why: >
+      52 occurrences. This is the English for de `Bindung` (304) and es/pt `vinculación`.
+      The site's shrine name `Shrine of Attachments` uses it correctly.
+    source: kentenich-reader-en
+    count: 52
+
+  - en: practical faith in Divine Providence
+    canonical: practical faith in Divine Providence
+    why: "15 occurrences. The English for de `Vorsehungsglaube` (695)."
+    source: kentenich-reader-en
+    count: 15
+
+  - en: everyday sanctity
+    canonical: everyday sanctity
+    why: >
+      9 occurrences — thin, and the English corpus is the weakest of the four on this term
+      (de 166, es 70). `sanctity of daily life` and `workday sanctity` do not occur at all,
+      so `everyday sanctity` stands by default rather than by weight of evidence.
+    source: kentenich-reader-en
+    review: true
+
+  - en: Capital of Grace
+    canonical: ~
+    why: >
+      **Not attested once in the English corpus** — no `Capital of Grace` or
+      `Capital of Graces`, while es has `Capital de Gracias` (34), pt `Capital de Graças`
+      (148) and de `Gnadenkapital` (47). The site's English key
+      `We thank you for your Capitol of Grace for this Shrine` also misspells it as
+      *Capitol*. So the English form is both unattested here and misspelled where the site
+      does use it — worth an English decision, not a translation one.
+    source: [kentenich-reader-en, site-en]
+    review: true

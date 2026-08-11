@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "schoenstatt-translations": {
+      "command": "go",
+      "args": ["run", "./cmd/schoenstatt-mcp"],
+      "env": {}
+    }
+  }
+}

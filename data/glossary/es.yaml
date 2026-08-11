@@ -1,0 +1,147 @@
+# Schoenstatt terms and their agreed Spanish rendering.
+#
+# `es` is what to write; `why` is the evidence. Verified 2026-08-10.
+# See ../style/es.md for register.
+#
+# Spanish is the best-covered language on the site after English (1,209 of 1,795), and its
+# translations are the ones the other Romance languages were most often copied from — which
+# makes its errors expensive. Counts are occurrences across 2.05 million characters.
+#
+# **The books are copyrighted.** Extract to scratch; commit only term, count and a clause.
+
+sources:
+  - id: kentenich-reader-es
+    what: >
+      *Kentenich Reader* tomos 1–3 (Peter Locher, tr. Spanish) — *Encuentro con el Padre
+      Fundador*, *Estudiar al Fundador*, *Seguir al profeta*.
+  - id: hacia-el-padre
+    what: "*Hacia el Padre* — the Spanish *Heavenwards*, Kentenich's prayer book."
+  - id: llave
+    what: "*La llave para entender Schoenstatt*."
+  - id: charlas
+    what: "*Charlas del Monte Sión*."
+  - id: filosofia
+    what: "*Mi filosofía de la educación*."
+  - id: terciado-es
+    what: "The Milwaukee tertianship conferences in Spanish, ~130 files."
+  - id: site-es
+    what: "The 1,209 Spanish translations already on schoenstatt.link."
+
+terms:
+  - en: Covenant of Love
+    es: Alianza de Amor
+    why: "29 occurrences, 28 of them capitalizing both nouns. Matches the site."
+    source: [kentenich-reader-es, llave]
+    count: 29
+
+  - en: Capital of Grace
+    es: Capital de Gracias
+    why: >
+      34 occurrences, `Gracias` plural — as in Italian `Capitale di Grazie` and Portuguese
+      `Capital de Graças`. Notably **the English corpus has no occurrence of
+      `Capital of Grace` at all**, which is worth knowing before treating English as the
+      source for this term.
+    source: kentenich-reader-es
+    count: 34
+
+  - en: Shrine
+    es: Santuario
+    why: "196 occurrences. Matches the site."
+    source: [kentenich-reader-es, charlas]
+    count: 196
+
+  - en: home shrine
+    es: santuario hogar
+    why: >
+      12 occurrences of `santuario hogar`. The site has no row for this yet; recorded for
+      when one appears. Note Portuguese uses `Santuário doméstico` and German
+      `Hausheiligtum`.
+    source: kentenich-reader-es
+    count: 12
+
+  - en: Mother Thrice Admirable
+    es: Madre Tres Veces Admirable
+    why: >
+      Only 3 occurrences of the full form, but **`MTA` (58) is used freely** — the
+      abbreviation is the normal register in Spanish Schoenstatt prose, as in German (140)
+      and Portuguese (73).
+    source: [kentenich-reader-es, charlas]
+
+  - en: everyday sanctity
+    es: santidad de la vida diaria
+    why: >
+      **70 occurrences** — a settled Spanish phrase for German's single word
+      `Werktagsheiligkeit`. Portuguese landed on the same shape
+      (`Santidade da vida diária`), which strengthens it.
+    source: kentenich-reader-es
+    count: 70
+
+  - en: attachment / bond
+    es: vinculación
+    why: >
+      **214 occurrences**, with `organismo de vinculaciones` (15). This is the Romance
+      solution to German `Bindung` / `Bindungsorganismus`, and it is why the site's
+      `Santuario de la Vinculación` is right. Italian has no equivalent noun, which is the
+      root of the one Italian entry most in need of review.
+    source: [kentenich-reader-es, filosofia]
+    count: 214
+
+  - en: Sisters of Mary
+    es: Hermanas de María
+    why: "42 occurrences. Matches the site."
+    source: kentenich-reader-es
+    count: 42
+
+  - en: Schoenstatt Fathers
+    es: Padres de Schoenstatt
+    why: "11 occurrences. Matches the site."
+    source: kentenich-reader-es
+    count: 11
+
+  - en: Apostolic Federation
+    es: Federación
+    why: >
+      **104 occurrences — Spanish really does use `Federación`.** This matters because
+      Portuguese does *not* (`União`, and `Federação` appears zero times in 3.1M characters)
+      and German uses `Bund`. **The three languages disagree three ways**, so this term is
+      the standing proof that a sibling language is never evidence for a translation.
+      The site's Spanish is right; its Portuguese is right; they differ.
+    source: [kentenich-reader-es, site-es]
+    count: 104
+
+  - en: Apostolic League
+    es: Liga
+    why: "32 occurrences."
+    source: kentenich-reader-es
+    count: 32
+
+  - en: Secular Institute
+    es: Instituto Secular
+    why: "`Instituto` 22 occurrences; the site's `Instituto Secular` compound is standard."
+    source: kentenich-reader-es
+
+  - en: practical faith in Divine Providence
+    es: fe práctica en la Divina Providencia
+    why: >
+      3 occurrences of the full phrase — low, but it is the standard rendering of German
+      `Vorsehungsglaube` (695) and matches Portuguese `fé prática na Divina Providência`.
+    source: kentenich-reader-es
+    review: true
+
+  - en: Founding Document
+    es: Documento de Fundación
+    why: >
+      3 occurrences, against 199 for German `Gründungsurkunde` and 169 for English
+      `Founding Document`. The Spanish corpus here simply talks about it less; the form is
+      not in doubt.
+    source: kentenich-reader-es
+
+  - en: Schoenstatt wayside shrine
+    es: Ermita de Schoenstatt
+    why: >
+      **Kept as the site has it, weakly attested.** `ermita` occurs twice, lowercase and
+      generically. Enough to show it is real Spanish for a wayside shrine and not a coinage;
+      not enough to confirm it is what Spanish-speaking Schoenstatt calls these structures.
+      The same gap exists in Portuguese and German; only Italian is settled (`edicola`).
+    source: [charlas, site-es]
+    review: true

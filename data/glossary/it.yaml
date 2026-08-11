@@ -1,0 +1,487 @@
+# Schoenstatt terms and their agreed Italian rendering.
+#
+# One entry per decision. `it` is what to write; `why` is the evidence that settled
+# it, so the decision can be re-examined rather than merely obeyed. An entry with
+# `it: ~` is an open question — do not guess it, ask.
+#
+# Verified against the capsule on 2026-08-10. See ../style/it.md for register.
+#
+# Two kinds of evidence appear here and they are not equal:
+#
+#   - **The movement's own Italian sources** — `schoenstatt.org/it`, `schoenstatt.com/it`
+#     and the communities' own pages. These are authoritative for charism vocabulary:
+#     they are what Italian Schoenstatt actually calls itself.
+#   - **The site's other four languages.** These settle *house convention* — whether a
+#     term is translated at all, and how it is shaped — but they cannot settle what the
+#     Italian word is. Where an es/de rendering is the only evidence, the entry says so.
+#
+# Where the two disagree, the Italian source wins. Recorded so the next session does
+# not re-derive it.
+
+sources:
+  - id: sch-org-it
+    url: https://www.schoenstatt.org/it/servizi/conoscere-schoenstatt/il-santuario/
+    what: >
+      The international movement's Italian pages. Used for Santuario, Santuario
+      Originale, Alleanza d'Amore, Capitale di Grazie, Madonna Pellegrina.
+  - id: sch-com-it-comunita
+    url: https://schoenstatt.com/it/nella-comunita/
+    what: >
+      The communities' own index, in Italian. This is the authority for the branch
+      names — leagues, federations and secular institutes — and it names all
+      eighteen of them explicitly.
+  - id: sch-com-it-padri
+    url: https://schoenstatt.com/it/nella-comunita/sacerdoti/padri-di-schoenstatt/
+    what: Istituto Secolare dei Padri di Schoenstatt; Padre Joseph Kentenich.
+  - id: laici-va
+    url: http://www.laici.va/content/laici/it/sezioni/associazioni/repertorio/mov-ap-schoenstatt.html
+    what: >
+      The former Pontifical Council for the Laity's Italian entry. Authoritative for
+      `Movimento Apostolico di Schoenstatt` and for the three-tier structure
+      (Leghe apostoliche / Federazioni apostoliche / Istituti secolari). Archived and
+      older than the movement's own pages — where it says `Patto d'amore` and the
+      movement says `Alleanza d'Amore`, follow the movement.
+  - id: sch-com-it-rete
+    url: https://schoenstatt.com/it/informazioni-su-schoenstatt/santuario/la-rete-dei-santuari/
+    what: >
+      The network of shrines, in Italian. Settles `edicola` for the wayside shrines —
+      it heads a section `Le edicole di Schoenstatt` and glosses it
+      `Le cappelle lungo la strada (edicole)`. Also `Santuario Domestico` and
+      `Santuario Originale`.
+  - id: pt-books
+    url: ~
+    what: >
+      The Portuguese Schoenstatt titles in `../reading-material`, published by
+      the Instituto Secular Padres de Schoenstatt and the Irmãs de Maria — see
+      `../glossary/pt.yaml` for the list. Cited here because they settle one Italian
+      question the Italian sources did not: the formal name of the institute English calls
+      *Ladies of Schoenstatt*.
+  - id: sorelle-roma
+    url: https://www.schoenstatt.org/it/tag/sorelle-di-maria-di-schoenstatt/
+    what: >
+      Settles Sorelle vs Suore. The institute's own Rome house is registered as
+      `Schoenstatt Istituto Secolare Sorelle di Maria` (Via Aurelia Antica 112) and
+      its own channels use `Sorelle di Maria di Schoenstatt`.
+
+terms:
+
+  # ---- the core vocabulary ----
+
+  - en: Shrine
+    it: Santuario
+    context: the Schoenstatt Shrine, as a common noun and in headings
+    why: >
+      `Santuario` is the word the Italian movement uses for the shrine, and it
+      capitalizes it when it means *the* Shrine — "il Santuario – il cuore di
+      Schoenstatt". es `Santuario`, pt `Santuário`, de `Heiligtum` agree that the term
+      is translated rather than kept.
+    source: sch-org-it
+    phrase_ids: [7002]
+
+  - en: Shrines
+    it: Santuari
+    context: site navigation, the shrine listing
+    why: >
+      es `Santuarios`, pt `Santuários`, de `Heiligtümer` — every language translates
+      it rather than keeping the English, and `santuario` is the ordinary Italian
+      word the movement uses for the Schoenstatt Shrine.
+    phrase_ids: [6535]
+
+  - en: Schoenstatt Shrine
+    it: Santuario di Schoenstatt
+    context: the shrine kind, page titles, the `sch-shrine` association kind
+    why: >
+      The Italian movement writes `Santuario di Schoenstatt`. Note the preposition:
+      Italian takes `di` where Spanish takes `de`. es `Santuario de Schoenstatt`,
+      pt `Santuário de Schoenstatt`, de `Schönstatt-Heiligtum`.
+      Two rows carry this string in different cases (6526 lowercase key, 7458 title
+      case) and both are written `Santuario di Schoenstatt` — the site uses them in
+      the same places and the German row for 7458 (`Heilegtum Schoenstatt`, a typo)
+      shows the case distinction was never meaningful.
+    source: sch-org-it
+    phrase_ids: [6526, 7458, 6525]
+
+  - en: Schoenstatt Shrines
+    it: Santuari di Schoenstatt
+    context: the collective, the shrine database's own subject
+    why: es `Santuarios de Schoenstatt`, pt `Santuários de Schoenstatt`.
+    source: sch-org-it
+    phrase_ids: [6546]
+
+  - en: Original Schoenstatt Shrine
+    it: Santuario Originale
+    context: the shrine at Vallendar, `Urheiligtum`
+    why: >
+      **`Santuario Originale`, not `Santuario Originario`.** The movement's Italian
+      pages use `Santuario Originale` consistently, including on the Padri di
+      Schoenstatt page. es `Santuario Original de Schoenstatt`, de `Urheiligtum`.
+      `di Schoenstatt` is not repeated — the Italian sources call it simply the
+      Santuario Originale, and there is only one.
+    source: [sch-org-it, sch-com-it-padri]
+    phrase_ids: [6818]
+
+  - en: Covenant of Love
+    it: Alleanza d'Amore
+    context: the founding act of 18 October 1914
+    why: >
+      Capitalized as a proper name, and with the apostrophe. The movement's Italian
+      pages are consistent. The archived Vatican entry says `Patto d'amore`; that is
+      older usage and is **not** what the movement calls it — follow the movement.
+    source: [sch-org-it, sch-com-it-padri, laici-va]
+
+  - en: Capital of Grace
+    it: Capitale di Grazie
+    context: charism vocabulary — contributions to the shrine's store of grace
+    why: The Italian movement's own term. Note `Grazie` plural.
+    source: sch-org-it
+
+  - en: Movement
+    it: Movimento
+    context: site navigation
+    why: es `Movimiento`, de `Bewegung`.
+    phrase_ids: [6356]
+
+  - en: Schoenstatt Movement
+    it: Movimento di Schoenstatt
+    context: the movement as a whole
+    why: >
+      The movement's own Italian name. Its full formal name is
+      `Movimento Apostolico di Schoenstatt`, which is what the Vatican entry uses;
+      `Movimento di Schoenstatt` is the everyday form and the one the Italian pages
+      lead with. es `Movimiento de Schoenstatt`.
+    source: [sch-org-it, laici-va]
+    phrase_ids: [6642]
+
+  - en: Father Kentenich / Fr. Kentenich
+    it: P. Giuseppe Kentenich
+    context: the founder
+    why: >
+      The Italian pages use `P. Giuseppe Kentenich` and also `P. Josef Kentenich`;
+      the given name is Italianized more often than not, and `P.` is the ordinary
+      Italian abbreviation for *Padre*. Follow es, which writes `P. Kentenich` and
+      `Padre José Kentenich` — the abbreviation in labels, the full form in prose.
+      **Where the string is part of a proper name already in another language**
+      (`Colegio Padre José Kentenich`, `Centro Padre José Kentenich`) leave it: that
+      is the institution's name, not a description of the founder.
+    source: sch-org-it
+
+  - en: Mother Thrice Admirable
+    it: Madre Tre Volte Ammirabile
+    context: the title of Our Lady in Schoenstatt; `Mater Ter Admirabilis`
+    why: >
+      The movement's Italian pages write the full title as
+      `Madre, Regina e Vittoriosa Tre Volte Ammirabile di Schoenstatt`. The Latin
+      `Mater Ter Admirabilis` is also kept untranslated in Italian contexts, as it is
+      in every language. Not yet needed by any phrase in the backlog; recorded because
+      it will be.
+    source: [sch-org-it, laici-va]
+
+  - en: Pilgrim Mother
+    it: Madonna Pellegrina
+    context: the Pilgrim Mother campaign
+    why: >
+      The established Italian term. es `Virgen Peregrina`, pt `Mãe Peregrina`,
+      de `Pilgernde Gottesmutter`. The campaign is
+      `Campagna della Madonna Pellegrina`, matching es `Campaña Virgen Peregrina`.
+    source: sch-org-it
+    phrase_ids: [5847, 6136, 5876]
+
+  - en: home shrine
+    it: santuario domestico
+    context: a shrine in a family's home
+    why: >
+      The Italian pages write `Santuari domestici` in the plural. Lowercase in
+      running text; this is a kind of shrine, not the Shrine.
+    source: sch-org-it
+
+  - en: Schoenstatt Link
+    it: Schoenstatt Link
+    context: the site's own name
+    why: >
+      A proper name. es, pt and de all keep it verbatim. Written rather than left
+      blank so it leaves the untranslated worklist. The string exists as a separate
+      row in **seven** text domains (Application, Bible, Books, JTranslate, JUser,
+      Schoenstatt, SionModel, ZfcUser) because the unique constraint is per domain —
+      all of them need writing.
+    phrase_ids: [5573, 6199, 5135, 5174, 5377, 5400, 5696, 5710, 6851]
+
+  # ---- the communities: leagues ----
+  #
+  # All eighteen branch names come from the communities' own Italian index. The
+  # site's Spanish is a useful check on *shape* but not on wording: es renders
+  # `Mothers' Federation` as `Federación de Señoras`, which Italian does not follow.
+
+  - en: Apostolic League
+    it: Lega Apostolica
+    context: the tier of the movement without community obligation
+    why: laici.va `Leghe apostoliche senza obbligo di comunità`.
+    source: [sch-com-it-comunita, laici-va]
+
+  - en: Women's League
+    it: Lega delle Donne
+    why: The communities' own Italian index.
+    source: sch-com-it-comunita
+    phrase_ids: [5871, 5842]
+
+  - en: Mothers' League
+    it: Lega delle Madri
+    why: >
+      The communities' own Italian index. Note that es uses `Señoras` here
+      (`Liga de Señoras`) where Italian uses `Madri` — do not translate the Spanish.
+    source: sch-com-it-comunita
+    phrase_ids: [5869, 5840]
+
+  - en: Men's League
+    it: Lega degli Uomini
+    source: sch-com-it-comunita
+    phrase_ids: [5870, 5841]
+
+  - en: Family League
+    it: Lega della Famiglia
+    why: >
+      Singular `Famiglia`, per the Italian index — where es pluralizes
+      (`Liga de Familias`).
+    source: sch-com-it-comunita
+    phrase_ids: [5868, 5839]
+
+  - en: Priests' League
+    it: Lega dei Sacerdoti
+    source: sch-com-it-comunita
+
+  - en: Schoenstatt Youth (young women's branch)
+    it: Gioventù Femminile
+    why: >
+      The Italian index names the two youth branches `Gioventù Femminile` and
+      `Gioventù Maschile`, without `di Schoenstatt`. es
+      `Juventud Feminina de Schoenstatt`.
+    source: sch-com-it-comunita
+    phrase_ids: [5873]
+
+  - en: Schoenstatt Youth (young men's branch)
+    it: Gioventù Maschile
+    source: sch-com-it-comunita
+    phrase_ids: [5872]
+
+  # ---- the communities: federations ----
+
+  - en: Apostolic Federation
+    it: Federazione Apostolica
+    why: laici.va `Federazioni (o Unioni) apostoliche`.
+    source: [sch-com-it-comunita, laici-va]
+
+  - en: Women's Federation
+    it: Federazione delle Donne
+    source: sch-com-it-comunita
+    phrase_ids: [6149, 6250, 5148, 6158]
+
+  - en: Mothers' Federation
+    it: Federazione delle Madri
+    source: sch-com-it-comunita
+    phrase_ids: [6151, 6249, 5147, 6157]
+
+  - en: Men's Federation
+    it: Federazione degli Uomini
+    source: sch-com-it-comunita
+    phrase_ids: [6248, 6156]
+
+  - en: Family Federation
+    it: Federazione della Famiglia
+    source: sch-com-it-comunita
+    phrase_ids: [6150, 6247, 5423, 6155]
+
+  - en: Priests' Federation
+    it: Federazione dei Sacerdoti
+    source: sch-com-it-comunita
+    phrase_ids: [6148, 6246, 6154, 5146]
+
+  # ---- the communities: secular institutes ----
+
+  - en: Secular Institute
+    it: Istituto Secolare
+    why: laici.va `Istituti secolari`; the Padri page writes `Istituto Secolare dei Padri di Schoenstatt`.
+    source: [sch-com-it-comunita, sch-com-it-padri, laici-va]
+
+  - en: Sisters of Mary
+    it: Sorelle di Maria
+    context: the Schoenstatt Sisters of Mary, a secular institute
+    why: >
+      **`Sorelle`, not `Suore`.** Both circulate in Italian, and the institute's own
+      usage settles it: its Rome house is registered as `Schoenstatt Istituto Secolare
+      Sorelle di Maria` and its own channels are `Sorelle di Maria di Schoenstatt`.
+      `Suore di Maria` appears in one schoenstatt.com article headline and is looser
+      usage — they are consecrated laywomen in a secular institute, not religious
+      sisters. es `Hermanas de María`, de `Marienschwestern`.
+    source: [sch-com-it-comunita, sorelle-roma]
+    phrase_ids: [6782, 5153, 7158, 7153]
+
+  - en: Brothers of Mary
+    it: Fratelli di Maria
+    source: sch-com-it-comunita
+    phrase_ids: [5149, 6153]
+
+  - en: Ladies of Schoenstatt
+    it: Signore di Schoenstatt
+    context: a secular institute
+    why: >
+      The Italian index names it `Signore di Schoenstatt`, and that is what is written.
+
+      **Correction (2026-08-10).** An earlier version of this entry said the Spanish row
+      `Inst. Nuestra Señora de Schoenstatt` "appears to be an error". **It is not.** The
+      institute's formal name is *Our Lady of Schoenstatt* — German
+      `Institut Unserer Lieben Frau von Schönstatt`, and the Portuguese books published
+      by the movement give `Instituto Secular Nossa Senhora de Schoenstatt` outright.
+      *Ladies of Schoenstatt* is a second, colloquial English name for the same body, and
+      the site holds both as separate keys (6781 and 5152). es, pt and de render both with
+      the formal name; English is the odd one out.
+
+      So `Signore di Schoenstatt` is the Italian movement's own colloquial form and is
+      right for this key, while `Nostra Signora di Schoenstatt` is right for 5152 — which
+      is how it is written. Two Italian names for one institute, matching the two English
+      ones. This was caught while mining the Portuguese sources, not from Italian.
+    source: [sch-com-it-comunita, pt-books]
+    phrase_ids: [6781]
+
+  - en: Family Institute
+    it: Istituto di Famiglia
+    why: >
+      Singular, per the Italian index, where es pluralizes
+      (`Instituto de Familias`).
+    source: sch-com-it-comunita
+    phrase_ids: [6147, 6742]
+
+  - en: Diocesan Priests' Institute
+    it: Istituto dei Sacerdoti Diocesani
+    source: sch-com-it-comunita
+    phrase_ids: [6143, 5150]
+
+  - en: Schoenstatt Fathers
+    it: Padri di Schoenstatt
+    context: a secular institute of priests
+    why: >
+      The Italian index and the institute's own page agree, and the site already
+      holds one Italian row using it — phrase 7148 reads
+      `Padri di Schoenstatt, Florencio Varela`, written before this glossary existed.
+      Full formal name `Istituto Secolare dei Padri di Schoenstatt`.
+    source: [sch-com-it-comunita, sch-com-it-padri]
+    phrase_ids: [6502, 5154, 5698, 7154, 7157]
+
+  - en: Pilgrims' movement
+    it: Movimento dei pellegrini
+    why: laici.va, which names this tier explicitly. es `Movimiento de peregrinos`.
+    source: laici-va
+    phrase_ids: [5875, 5846]
+
+  # ---- adjectives the site leans on heavily ----
+
+  - en: Schoenstatt (as adjective — "Schoenstatt libraries", "Schoenstatt literature")
+    it: schoenstattiano
+    context: >
+      es and pt both use the adjective `schoenstattiano` rather than a prepositional
+      phrase — `Bibliotecas schoenstattianas`, `Literatura schoenstattiana`
+    why: >
+      Italian forms the same adjective, `schoenstattiano`, and the movement's Italian
+      pages use `schoenstattiani` for members. Lowercase, agreeing in gender and
+      number: `biblioteche schoenstattiane`, `letteratura schoenstattiana`.
+      **This is the one entry here resting on es/pt shape rather than on an attested
+      Italian phrase for each collocation** — the adjective is attested, the
+      collocations are constructed. Flagged for review.
+    source: sch-org-it
+    review: true
+    phrase_ids: [6768, 6505, 6514, 6765, 7314]
+
+  - en: Kentenich (as adjective — "Kentenich dictionary")
+    it: kentenichiano
+    why: >
+      es `Diccionario kentenichiano`, pt `Dicionário kentenichiano`. Italian forms it
+      the same way. Lowercase.
+    review: true
+    phrase_ids: [6772, 6769]
+
+  # ---- open: do not write these without asking ----
+
+  - en: Schoenstatt wayside shrine
+    it: Edicola di Schoenstatt
+    context: >
+      the `sch-wayside-shrine` association kind, defined at
+      `module/Schoenstatt/config/module.config.php:403` with `name_format`
+      `Schoenstatt wayside shrine %s`
+    why: >
+      **`Edicola`, on the movement's own Italian authority.** The Italian page on the
+      network of shrines has a section headed `Le edicole di Schoenstatt` and glosses
+      the term for readers who might not know it:
+      `Le cappelle lungo la strada (edicole)`. That is the movement naming the thing
+      itself, which beats reasoning from the other languages — and the other languages
+      would not have got here: es `Ermita`, pt `Ermida` and de `Bildstock` are a
+      hermitage, a hermitage and a wayside pillar, three different objects.
+      `edicola` is the ordinary Italian word for a roadside or wall shrine and is
+      what the movement uses.
+      Plural `Edicole`. The bare `Wayside shrines` navigation label is `Edicole`,
+      matching es `Hermitas`, which likewise drops the `de Schoenstatt`.
+    source: sch-com-it-rete
+    phrase_ids: [6527, 6718, 7230, 7229]
+
+  - en: Google Knowledge Graph
+    it: ~
+    context: phrase 6191, and the Wikipedia URL beside it in 6190
+    why: >
+      No house convention. es translates it (`Gráfico de Conocimiento de Google`),
+      pt keeps the English, de keeps the English with a gloss. The Italian Wikipedia
+      article `Google Knowledge Graph` exists (pageid 4350212), so the URL in 6190
+      could point at it. Awaiting a decision — asked, not yet answered.
+
+  - en: Coenaculum-Heiligtum
+    it: ~
+    context: >
+      a shrine name whose source key is German; the same shrine is
+      `Cenáculo de Bellavista` in Spanish and `Santuario del Cenáculo` in the
+      Spanish rendering of the German key
+    why: >
+      What a shrine is called in Italian is charism vocabulary, not translation. The
+      site does not leave these alone in other languages, so leaving them alone in
+      Italian is also a choice — but it is not one to make by guessing. There are
+      164 phrases with a non-English source and they concentrate in exactly these
+      shrine and publication names.
+
+  # ---- added 2026-08-11, while closing the Italian gap ----
+  #
+  # These three were needed by the 54 rows written that day and were not here. They are
+  # recorded as decisions with their evidence, and all three are on
+  # ../../docs/it-review-2026-08-11.md — a derived charism name is not something to settle
+  # from the siblings alone.
+
+  - en: Covenant Mass
+    it: Messa dell'Alleanza
+    context: >
+      the Mass celebrated on the 18th of the month; phrases 6980 and 6993, and inside the
+      Villa Ballester notice 7285 as `Fiesta de Alianza`
+    why: >
+      Derived from the glossary's `Alleanza d'Amore`, on the German row of 6980, which reads
+      `Bündnismesse` — so the site does translate this rather than keeping `Misa de Alianza`.
+      es `Misa de Alianza`, pt `Missa de Aliança`. The **feast** rather than the Mass is
+      `Festa dell'Alleanza`, which is what 7285 needed.
+      **Constructed from the siblings, not attested in an Italian source.** If the movement's
+      Italian says `Messa del Patto` or keeps `Alleanza d'Amore` in full, three rows change.
+    review: true
+    phrase_ids: [6980, 6993, 7285]
+
+  - en: Schoenstatt Youth House
+    it: Casa della Gioventù di Schoenstatt
+    context: >
+      the building in Budapest holding the altar of a closed shrine; phrases 9701 and 9702,
+      whose source key is German
+    why: >
+      Renders de `Haus der Schönstatt-Jugend` and pt `Casa da Juventude de Schoenstatt`. The
+      glossary has the two youth *branches* (`Gioventù Femminile`, `Gioventù Maschile`) but
+      not the house. Whether an Italian reader recognises this as the name of a specific
+      building in Budapest is a question for somebody who knows the Hungarian movement.
+    review: true
+    phrase_ids: [9701, 9702]
+
+  - en: Daughter Shrine
+    it: Santuario filiale
+    context: a shrine affiliated to the Original Shrine; phrase 6971, the Ohio shrine
+    why: >
+      pt `Santuário filial` and de `Filialheiligtum` are both already on this row, written
+      before this pass, so the term is translated rather than kept and the shape is settled.
+      Lowercase adjective, as pt has it.
+    phrase_ids: [6971]
