@@ -128,7 +128,7 @@ Routes: associations/association/edit (14), association-edit (9), associations/a
 Examples:
 
 - `{collectionAbbreviation}%1$06.2f{author}{title}%2$02d` — phrase 7955
-- `Not official, it was a creation through the general presidium, that hasn't continued since the t` … — phrase 6976
+- a moderator's administrative note on one association, about that association's standing — phrase 6976 *(not quoted; the id is enough to find it)*
 - `Turn right at the first driveway after getting off the highway. ⏎  ⏎ **Confession**: By appointm` … — phrase 6954
 - `Directly on the big road, do not enter in the village of Thun-Saint-Martin. Coming from Cambrai,` … — phrase 7205
 - `Founded in 2015, Patris' mission is to bring the Schoenstatt spirituality of the Catholic Church` … — phrase 6967

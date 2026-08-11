@@ -55,6 +55,11 @@ to be published on GitHub once it has content worth publishing.
   of the index scripts did until 2026-08-11. In code, derive the root from `__file__`
   rather than the working directory, and take a scratch directory as an argument.
 - No unreleased plans, no unannounced anything. `docs/` is for how the work is done.
+- **Don't quote record content verbatim — describe it and give the phrase id.** A phrase
+  whose source is a database record can be anyone's candid administrative note, and a
+  document illustrating a classifier bucket does not need the words to make its point. The
+  id is enough for anybody who needs to look. Shrine directions and opening hours are the
+  exception: they are public information and quoting them is the job.
 - **Don't write anything that implies official standing, and don't announce virtues.**
   No "approved by", no "official", no citing a Church document to lend weight to a
   tooling decision. A file that declares its own transparency invites the reader to
@@ -67,17 +72,20 @@ to be published on GitHub once it has content worth publishing.
 ## Layout
 
 ```
+README.md              what this is, for a reader who arrives from GitHub
 CLAUDE.md              this file — the working contract
 cmd/schoenstatt-mcp/   the MCP server exposing the translation API as tools
 internal/schoenstatt/  the API client, and the language-code mapping it depends on
 tools/                 the pipeline that regenerates the translation index
 data/
-  glossary/it.yaml     Schoenstatt terms and their agreed rendering per language
-  glossary/pt.yaml     the same for Portuguese, built from the movement's own books
-  style/it.md          register, address forms, capitalization for one language
-  style/pt.md          the same for Portuguese: pt_BR, and why not to copy Spanish
-  shrines/notes/       research notes on individual shrines, one file each
+  glossary/            de en es it pt — Schoenstatt terms, their agreed rendering in each
+                       language, and the source each was attested against
+  style/               de es it pt — register, address forms, capitalization, and for pt
+                       why not to copy Spanish. No en, because most source strings are
+                       already English; there is an en glossary because terms still differ
 docs/
+  de-du-corrections.json     the du/Sie sweep, as sent
+  de-umlaut-corrections.json the Schönstatt umlaut sweep, as sent
   translation-index.md    which page shows which untranslated phrase
   phrase-table-noise.md   what is in the phrase table that is not a phrase
   it-skipped.md           the phrases deliberately left untranslated, and why
